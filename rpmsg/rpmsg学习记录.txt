@@ -1,0 +1,7 @@
+rpmsg学习记录
+
+拓展知识点：
+1、bus_type
+    bus提供 driver device注册、match、probe接口
+    提供bus层通用的接口函数，比如rpmsg_trysendto rpmsg_trysend等，供driver调用
+    提供bus driver device属性
