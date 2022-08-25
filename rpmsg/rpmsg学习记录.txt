@@ -1,12 +1,7 @@
 rpmsg学习记录
 
-拓展知识点：
-1、bus_type
-    bus提供 driver device注册、match、probe接口
-    提供bus层通用的接口函数，比如rpmsg_trysendto rpmsg_trysend等，供driver调用
-    提供bus driver device属性
 
-2、参考资料
+1、参考资料
     参考imx的rpmsg内核代码
     《Linux RPMsg框架--以及应用于iMX6 SoloX连接A9和M4 Core》这里面有相关文件介绍
     https://blog.csdn.net/kunkliu/article/details/126524790
@@ -14,8 +9,20 @@ rpmsg学习记录
     《linux 核间通讯rpmsg架构分析》这里面是imx rpmsg代码分析
     https://blog.csdn.net/kunkliu/article/details/126475045
 
+    《Rpmsg与Virtio介绍》
+    https://blog.csdn.net/weixin_42813232/article/details/125577142
+
     imx的内核代码可以在github上随便搜索一个，本次参考kernel版本 4.1.15
 
+
+99、拓展知识点：
+99.1 总线驱动 bus
+    bus驱动主要实现的功能
+        1、driver的注册
+        2、device的注册
+        3、match函数
+        4、设置一些bus属性
+        5、export出去一些函数接口
 
 //////////////////////////////////////////////////////////////////////////////
 virtio 学习记录
