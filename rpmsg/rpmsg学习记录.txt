@@ -6,6 +6,18 @@ rpmsg学习记录
     提供bus层通用的接口函数，比如rpmsg_trysendto rpmsg_trysend等，供driver调用
     提供bus driver device属性
 
+2、参考资料
+    参考imx的rpmsg内核代码
+    《Linux RPMsg框架--以及应用于iMX6 SoloX连接A9和M4 Core》这里面有相关文件介绍
+    https://blog.csdn.net/kunkliu/article/details/126524790
+
+    《linux 核间通讯rpmsg架构分析》这里面是imx rpmsg代码分析
+    https://blog.csdn.net/kunkliu/article/details/126475045
+
+    imx的内核代码可以在github上随便搜索一个，本次参考kernel版本 4.1.15
+
+
+//////////////////////////////////////////////////////////////////////////////
 virtio 学习记录
 
 1、vring参考资料
