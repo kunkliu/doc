@@ -5,3 +5,9 @@ rpmsg学习记录
     bus提供 driver device注册、match、probe接口
     提供bus层通用的接口函数，比如rpmsg_trysendto rpmsg_trysend等，供driver调用
     提供bus driver device属性
+
+virtio 学习记录
+
+1、vring参考资料
+    《网络虚拟化 virtio 框架分析》
+    https://zhuanlan.zhihu.com/p/542483879
